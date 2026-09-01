@@ -1,7 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+using System;
 
-var app = builder.Build();
-
-app.MapGet("/", () => "FLEXDEPLOY-3859 Publish Profile Test");
-
-app.Run();
+namespace PublishProfileTest
+{
+    public class MainProjectClass
+    {
+        public static string GetBuildType()
+        {
+            return "PUBLISH PROFILE TEST";
+        }
+    }
+}
