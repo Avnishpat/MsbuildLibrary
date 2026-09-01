@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">Any CPU</Platform>
 
     <ProjectGuid>{11111111-1111-1111-1111-111111111111}</ProjectGuid>
     <OutputType>Library</OutputType>
